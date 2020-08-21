@@ -1,0 +1,29 @@
+29. WARNING - possible resource problems!
+1min
+
+30. An Introduction to Microservices
+15min
+
+31. Introduction to Microservices Part 2
+11min
+
+32. Fleetman Microservices - setting the scene
+14min
+
+33. Deploying the Queue
+13min
+
+34. Deploying the Position Simulator
+8min
+
+35. Inspecting Pod Logs
+6min
+
+36. Deploying the Position Tracker
+11min
+
+37. Deploying the API Gateway
+5min
+
+38. Deploying the Webapp
+7min
