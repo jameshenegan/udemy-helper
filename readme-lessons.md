@@ -8,7 +8,7 @@ Suppose that you copy the following text into a file called `sample.txt`.
 
 Then you can use `scrape.py` to convert the data in that text into a `csv` file.
 
-For example input and output, check out the files `sample.txt` and `section11.csv` included in this repo.
+For example input and output, check out the files `sample_lessons.txt` and `section11.csv` included in this repo.
 
 ## Example Usage
 

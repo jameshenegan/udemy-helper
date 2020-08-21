@@ -6,7 +6,7 @@ Suppose that you copy the following text into a file called `sample.txt`.
 
 Then you can use `scrape_sections.py` to convert the data in that text into a `csv` file.
 
-For example input and output, check out the files `sample.txt` and `Grider-Docker.csv` included in this repo.
+For example input and output, check out the files `sample_sections.txt` and `Grider-Docker.csv` included in this repo.
 
 ## Example Usage
 
