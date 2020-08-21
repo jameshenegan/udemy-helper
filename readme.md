@@ -1,17 +1,20 @@
 # Section Name Scraper for Udemy Courses
 
-Suppose that you copy the following text into a file called `sample.txt`.
+Suppose that you are taking a Udemy course. You copy the following text into a file called `./txt/sample_sections.txt`.
 
-![sections](sections.png)
+![sections](./images/sections.png)
 
-Then you can use `scrape_sections.py` to convert the data in that text into a `csv` file.
+Then you can use `scrape_sections.py` (located in the `app` folder)to convert the data in that text into a `csv` file located in the `.csv/` folder.
 
-For example input and output, check out the files `sample_sections.txt` and `Grider-Docker.csv` included in this repo.
+For example input and output, check out the files `./txt/sample_sections.txt` and `./csv/Grider-Docker.csv` included in this repo.
 
 ## Example Usage
 
+The following commands are being executed in a virtual envrionment that has `pandas` installed in it. (See `requirements.txt`).
+
 ```
-(venv) Jamess-Mac-mini:udemy-scraper Jim$ python3 scrape_sections.py
+> cd app
+> python3 scrape_sections.py
 
 -------------------------
 Udemy Course Info Scraper

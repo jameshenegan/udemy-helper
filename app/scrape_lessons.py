@@ -1,13 +1,15 @@
 import pandas as pd
 from helpers import *
+import os
 
-file_to_read = "sample_lessons.txt"
+file_to_read = os.path.join("..", "txt", "sample_lessons.txt")
 
 clear_terminal()
 make_intro_text_0()
 
 make_intro_text_1()
 file_to_save = input("Output file name:  ") + ".csv"
+file_to_save = os.path.join("..", "csv", file_to_save)
 
 clear_terminal()
 make_intro_text_2()
