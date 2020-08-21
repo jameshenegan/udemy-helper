@@ -1,0 +1,55 @@
+Section 1: Dive Into Docker!
+7 / 13|35min
+Section 2: Manipulating Containers
+with the Docker Client
+14 / 14|51min
+Section 3: Building Custom Images
+Through Docker Server
+8 / 9|47min
+Section 4: Making Real Projects
+with Docker
+9 / 12|54min
+Section 5: Docker Compose with
+Multiple Local Containers
+7 / 12|52min
+Section 6: Creating a
+Production-Grade Workflow
+29 / 29|1hr 35min
+Section 7: Continuous Integration
+and Deployment with AWS
+14 / 19|1hr 6min
+Section 8: Building a
+Multi-Container Application
+3 / 14|1hr 12min
+Section 9: "Dockerizing" Multiple
+Services
+0 / 18|1hr 18min
+Section 10: A Continuous
+Integration Workflow for Multiple …
+1 / 11|46min
+Section 11: Multi-Container
+Deployments to AWS
+8 / 25|1hr 49min
+Section 12: Onwards to
+Kubernetes!
+12 / 17|1hr 46min
+Section 13: Maintaining Sets of
+Containers with Deployments
+0 / 17|1hr 32min
+Section 14: A Multi-Container App
+with Kubernetes
+2 / 30|2hr 22min
+Section 15: Handling Traffic with
+Ingress Controllers
+0 / 16|44min
+Section 16: Kubernetes Production
+Deployment
+0 / 40|2hr 39min
+Section 17: HTTPS Setup with
+Kubernetes
+0 / 14|48min
+Section 18: Local Development
+with Skaffold
+0 / 6|28min
+Section 19: Extras
+0 / 1|1min

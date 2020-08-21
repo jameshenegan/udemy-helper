@@ -7,7 +7,8 @@
 31. Introduction to Microservices Part 2
 11min
 
-32. Fleetman Microservices - setting the scene
+32. Fleetman Microservices - setting the
+scene
 14min
 
 33. Deploying the Queue

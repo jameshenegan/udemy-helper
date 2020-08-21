@@ -1,7 +1,7 @@
 import pandas as pd
 from helpers import *
 
-file_to_read = "sample.txt"
+file_to_read = "sample_lessons.txt"
 
 clear_terminal()
 make_intro_text_0()

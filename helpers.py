@@ -8,11 +8,18 @@ def make_intro_text_0():
     print("Udemy Course Info Scraper")
     print("-------------------------")
     print("")
-    print("We will convert the contents of 'sample.txt' to a CSV file.")
+    print("We will convert the contents of 'sample_lessons.txt' to a CSV file.")
+
+def make_intro_text_0_sections():
+    print("-------------------------")
+    print("Udemy Course Info Scraper")
+    print("-------------------------")
+    print("")
+    print("We will convert the contents of 'sample_sections.txt' to a CSV file.")    
 
 def make_intro_text_1():        
     print("What should the name of the CSV file be?")
-    print("For example, type 'section11' to create 'section11.csv'")
+    print("For example, type 'file' to create 'file.csv'")
     print("")
 
 def make_intro_text_2():    
@@ -45,3 +52,45 @@ def get_titles_and_lengths(text):
             print("oops")
 
     return(section_names, lengths)
+
+def get_section_titles_and_lengths(text):
+
+    split_string = text.split("\n")
+
+    begin_desc_line_num = 0
+    end_desc_line_num = 0
+    description = ""
+
+    descriptions = []
+    lengths = []
+
+    for j in range(len(split_string)):
+        current_line = split_string[j]
+
+        # if we are on a line that begins with "Section"
+        if current_line[:7] == "Section":
+            begin_desc_line_num = j
+            
+        # if we are on a line with information about time ... 
+        if current_line[-3:] == "min":
+
+
+            end_desc_line_num = j - 1            
+
+            # get the time
+            time = current_line.split("|")[1]
+
+
+            # get the lines with the description of the section
+            end_desc_line_num = j - 1
+            if begin_desc_line_num == end_desc_line_num:
+                description = split_string[begin_desc_line_num]
+            else:
+                description = ""
+                for i in range(begin_desc_line_num, end_desc_line_num + 1):
+                    description += split_string[i]
+            descriptions.append(description)
+            lengths.append(time)
+
+    return(descriptions, lengths)    
+   
