@@ -43,6 +43,11 @@ df = quick_fix(file_to_save)
 
 df = clean_time(df)[['SectionNum', 'SectionTitle', 'hours', 'minutes']]
 
+df['minutes'] = df['minutes'].apply(lambda x: int(x)) 
+df['hours'] = df['hours'].apply(lambda x: int(x)) 
+df['time(minutes)'] = 60 * df['hours'] + df['minutes']
+df = df[['SectionNum', 'SectionTitle', 'time(minutes)']]
+
 df.to_csv(file_to_save, index = False)
 
 
