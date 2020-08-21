@@ -4,7 +4,7 @@ Suppose that you are taking a Udemy course. You copy the following text into a f
 
 ![sections](./images/sections.png)
 
-Then you can use `scrape_sections.py` (located in the `app` folder)to convert the data in that text into a `csv` file located in the `.csv/` folder.
+Then you can use `scrape_sections.py` (located in the `app` folder) to convert the data in that text into a `csv` file located in the `.csv/` folder.
 
 For example input and output, check out the files `./txt/sample_sections.txt` and `./csv/Grider-Docker.csv` included in this repo.
 
@@ -32,3 +32,7 @@ File created!
 # Also See
 
 Also see `readme-lessons.md` for a "Lessons" Scraper
+
+# To Do
+
+Clean up the `csv` files produced by `scrape_sections.py`. For instance, you can separate the section numbers from the section titles. You can also conver the time length column into minutes.

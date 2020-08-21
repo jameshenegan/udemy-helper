@@ -88,7 +88,7 @@ def get_section_titles_and_lengths(text):
             else:
                 description = ""
                 for i in range(begin_desc_line_num, end_desc_line_num + 1):
-                    description += split_string[i]
+                    description += split_string[i] + " "
             descriptions.append(description)
             lengths.append(time)
 
