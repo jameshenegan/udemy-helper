@@ -2,6 +2,20 @@ import pandas as pd
 from helpers import *
 import os
 
+def quick_fix(file_to_save):
+    df = pd.read_csv(file_to_save)
+
+    section_col = df['Section']
+
+    section_nums_plus = section_col.str.split(":").apply(lambda x: x[0])
+    section_nums = section_nums_plus.apply(lambda x: x[7:])
+
+    section_titles = section_col.str.split(":").apply(lambda x: x[1])
+
+    df['SectionNum'] = section_nums
+    df['SectionTitle'] = section_titles
+    return df[['SectionNum', 'SectionTitle', 'Time']]
+
 file_to_read = os.path.join("..", "txt", "sample_sections.txt")
 
 clear_terminal()
@@ -24,5 +38,12 @@ df = pd.DataFrame(
 df = df[['Section', 'Time']]
 
 df.to_csv(file_to_save, index = False)
+
+df = quick_fix(file_to_save)
+
+df = clean_time(df)[['SectionNum', 'SectionTitle', 'hours', 'minutes']]
+
+df.to_csv(file_to_save, index = False)
+
 
 print("File created!")

@@ -32,7 +32,3 @@ File created!
 # Also See
 
 Also see `readme-lessons.md` for a "Lessons" Scraper
-
-# To Do
-
-Clean up the `csv` files produced by `scrape_sections.py`. For instance, you can separate the section numbers from the section titles. You can also conver the time length column into minutes.

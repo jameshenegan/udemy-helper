@@ -1,20 +1,20 @@
-Section,Time
-Section 1: Dive Into Docker!,35min
-Section 2: Manipulating Containers with the Docker Client ,51min
-Section 3: Building Custom Images Through Docker Server ,47min
-Section 4: Making Real Projects with Docker ,54min
-Section 5: Docker Compose with Multiple Local Containers ,52min
-Section 6: Creating a Production-Grade Workflow ,1hr 35min
-Section 7: Continuous Integration and Deployment with AWS ,1hr 6min
-Section 8: Building a Multi-Container Application ,1hr 12min
-"Section 9: ""Dockerizing"" Multiple Services ",1hr 18min
-Section 10: A Continuous Integration Workflow for Multiple … ,46min
-Section 11: Multi-Container Deployments to AWS ,1hr 49min
-Section 12: Onwards to Kubernetes! ,1hr 46min
-Section 13: Maintaining Sets of Containers with Deployments ,1hr 32min
-Section 14: A Multi-Container App with Kubernetes ,2hr 22min
-Section 15: Handling Traffic with Ingress Controllers ,44min
-Section 16: Kubernetes Production Deployment ,2hr 39min
-Section 17: HTTPS Setup with Kubernetes ,48min
-Section 18: Local Development with Skaffold ,28min
-Section 19: Extras,1min
+SectionNum,SectionTitle,hours,minutes
+ 1, Dive Into Docker!,0,35
+ 2, Manipulating Containers with the Docker Client ,0,51
+ 3, Building Custom Images Through Docker Server ,0,47
+ 4, Making Real Projects with Docker ,0,54
+ 5, Docker Compose with Multiple Local Containers ,0,52
+ 6, Creating a Production-Grade Workflow ,1,35
+ 7, Continuous Integration and Deployment with AWS ,1,6
+ 8, Building a Multi-Container Application ,1,12
+ 9," ""Dockerizing"" Multiple Services ",1,18
+ 10, A Continuous Integration Workflow for Multiple … ,0,46
+ 11, Multi-Container Deployments to AWS ,1,49
+ 12, Onwards to Kubernetes! ,1,46
+ 13, Maintaining Sets of Containers with Deployments ,1,32
+ 14, A Multi-Container App with Kubernetes ,2,22
+ 15, Handling Traffic with Ingress Controllers ,0,44
+ 16, Kubernetes Production Deployment ,2,39
+ 17, HTTPS Setup with Kubernetes ,0,48
+ 18, Local Development with Skaffold ,0,28
+ 19, Extras,0,1

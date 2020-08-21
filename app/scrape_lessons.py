@@ -31,4 +31,5 @@ df = df[['Section', 'Lesson', 'Time']]
 
 df.to_csv(file_to_save, index = False)
 
+
 print("File created!")

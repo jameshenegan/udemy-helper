@@ -1,3 +1,27 @@
+def get_hours(your_list):
+    if len(your_list) == 2:
+        return your_list[0]
+    else:
+        return "0hr"
+
+def get_minutes(your_list):
+    if len(your_list) == 1:
+        return your_list[0]
+    else:
+        return your_list[1]
+
+def clean_time(df):
+    time_col = df['Time']
+    split_time_col = time_col.str.split()
+
+    df['hours'] = split_time_col.apply(lambda x : get_hours(x))
+    df['minutes'] = split_time_col.apply(lambda x : get_minutes(x))
+
+    df['hours'] = df['hours'].apply(lambda x: x[0])
+    df['minutes'] = df['minutes'].apply(lambda x: x[:-3])
+
+    return df        
+
 def clear_terminal():
     print(chr(27)+'[2j')
     print('\033c')
