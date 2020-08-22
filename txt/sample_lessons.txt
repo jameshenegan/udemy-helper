@@ -1,30 +1,84 @@
-29. WARNING - possible resource problems!
+53. Module Introduction
 1min
 
-30. An Introduction to Microservices
-15min
+54. What is DynamoDB?
+3min
 
-31. Introduction to Microservices Part 2
-11min
+55. AWS: DynamoDB Useful Resources & Links
+1min
 
-32. Fleetman Microservices - setting the
-scene
-14min
-
-33. Deploying the Queue
-13min
-
-34. Deploying the Position Simulator
-8min
-
-35. Inspecting Pod Logs
-6min
-
-36. Deploying the Position Tracker
-11min
-
-37. Deploying the API Gateway
+56. How DynamoDB Organizes Data
 5min
 
-38. Deploying the Webapp
+57. NoSQL vs SQL
+3min
+
+58. Using DynamoDB with Lambda
+1min
+
+59. Creating a Table in DynamoDB
+3min
+
+60. Understanding Read & Write Capacity
+4min
+
+61. On-Demand Capacity
+1min
+
+62. Creating and Scanning Items
+2min
+
+63. What about multiple Databases?
+1min
+
+64. Accessing DynamoDB from Lambda
+5min
+
+Quiz 1: DynamoDB Concepts
+
+65. Sidenote: How Lambda works behind the Scenes
+2min
+
+66. Putting Items into a DynamoDB Table from
+Lambda
+6min
+
+67. Setting Permissions Right
+2min
+
+68. Using API Gateway (Request) Data for Item
+Creation
+6min
+
+69. Mapping the Response & Web Testing
+3min
+
+70. Scanning Data in DynamoDB from Lambda
+8min
+
+71. Improving the IAM Permissions
+5min
+
+72. Restructuring Fetched Data in Lambda
+3min
+
+73. Getting a Single Item from DynamoDB via Lambda
+6min
+
+74. Testing it from the Web & Passing Correct Data
+2min
+
+75. Preparing "Delete" Permissions
+3min
+
+76. Giving Lambda Logging Rights
+1min
+
+77. Deleting Items in DynamoDB via Lambda
+5min
+
+78. Mapping DynamoDB Responses
 7min
+
+79. Wrap Up
+2min
